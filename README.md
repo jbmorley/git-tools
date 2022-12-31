@@ -4,13 +4,27 @@
 
 ## Installation
 
-Include the Git Tools configuration file in your local Git configuration. For example, if you've cloned this repository to `~/Projects/git-tools`, then you would add the following section to yout `~/.gitconfig`:
+1. Clone the repository:
 
-```
-[include]
+   ```bash
+   mkdir -p ~/Projects
+   cd ~/Projects
+   git clone git@github.com:jbmorley/git-tools.git
+   ```
 
-    path = ~/Projects/git-tools/config
-```
+2. Update the submodules:
+
+   ```
+   git submodule update --init
+   ```
+
+3. Include the Git Tools configuration file in your local Git configuration. For example, if you've cloned this repository to `~/Projects/git-tools`, then you would add the following section to yout `~/.gitconfig`:
+
+   ```
+   [include]
+   
+       path = ~/Projects/git-tools/config
+   ```
 
 ### Updates
 
