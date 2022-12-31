@@ -8,5 +8,6 @@ Include the Git Tools configuration file in your local Git configuration. For ex
 
 ```
 [include]
-        path = ~/Projects/git-tools/config
+
+path = ~/Projects/git-tools/config
 ```
