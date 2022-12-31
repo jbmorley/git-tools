@@ -11,3 +11,13 @@ Include the Git Tools configuration file in your local Git configuration. For ex
 
 path = ~/Projects/git-tools/config
 ```
+
+## Commands
+
+Git Tools adds the following additional git commands, many of which are simply shorter forms to avoid the need to type too much:
+
+- `br` – alias for `branch`
+- `ci` – alias for `commit`
+- `co` – alias for `checkout`
+- `s` – alias for `status`
+- `dt` – alias for `difftool`
