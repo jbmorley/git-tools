@@ -1,10 +1,14 @@
 [alias]
 
+git-tools-install-directory = !dirname `git config --list --show-origin | grep alias.git-tools-install-directory | cut -f1 | cut -d":" -f2`
+
 br = branch
 ci = commit
 co = checkout
 dt = difftool
 s = status
 sha = rev-parse HEAD
-up = !git fetch origin -p && git rebase origin/main
-ups = !git fetch origin -p && git rebase origin/main --autostash
+up = !git fetch origin -p && git rebase origin/main --autostash
+list-alias = config --get-regexp ^alias
+
+hello = !"`git git-tools-install-directory`/scripts/hello.sh"
