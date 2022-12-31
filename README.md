@@ -20,6 +20,7 @@ Git Tools adds the following additional git commands, many of which are simply s
 - `ci` – alias for `commit`
 - `co` – alias for `checkout`
 - `s` – alias for `status`
+- `st` – alias for `status`
 - `dt` – alias for `difftool`
 - `up` – fetch and rebase onto `origin/main`
    ```bash
@@ -29,3 +30,4 @@ Git Tools adds the following additional git commands, many of which are simply s
 - `sha` – alias for `rev-parse HEAD`
 - `hello` – simple hello world for the scripts directory
 - `update-git-tools` – update the current installation
+- `list-alias` – list all aliases

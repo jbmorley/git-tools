@@ -6,10 +6,11 @@ br = branch
 ci = commit
 co = checkout
 dt = difftool
+list-alias = config --get-regexp ^alias
 s = status
 sha = rev-parse HEAD
+st = status
 up = !git fetch origin -p && git rebase origin/main --autostash
-list-alias = config --get-regexp ^alias
 
 hello = !"`git git-tools-install-directory`/scripts/hello.sh"
 
