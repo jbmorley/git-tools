@@ -1,1 +1,1 @@
-# Git Conveniences
+# Git Utilities
