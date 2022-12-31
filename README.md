@@ -28,4 +28,4 @@ Git Tools adds the following additional git commands, many of which are simply s
    ```
 - `sha` – alias for `rev-parse HEAD`
 - `hello` – simple hello world for the scripts directory
-- `update-git-tools` – update the current `git-tools` installation
+- `update-git-tools` – update the current installation
