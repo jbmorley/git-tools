@@ -21,7 +21,13 @@ Git Tools adds the following additional git commands, many of which are simply s
 - `co` – alias for `checkout`
 - `s` – alias for `status`
 - `st` – alias for `status`
+  ```bash
+  git status
+  ```
 - `dt` – alias for `difftool`
+  ```bash
+  git difftool
+  ```
 - `up` – fetch and rebase onto `origin/main`
    ```bash
    git fetch origin -p
