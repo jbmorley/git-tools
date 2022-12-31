@@ -5,3 +5,5 @@ ci = commit
 co = checkout
 s = status
 dt = difftool
+up = !git fetch origin -p && git rebase origin/main
+ups = !git fetch origin -p && git rebase origin/main --autostash

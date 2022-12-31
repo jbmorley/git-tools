@@ -21,3 +21,13 @@ Git Tools adds the following additional git commands, many of which are simply s
 - `co` – alias for `checkout`
 - `s` – alias for `status`
 - `dt` – alias for `difftool`
+- `up` – fetch and rebase onto `origin/main`
+   ```bash
+   git fetch origin -p
+   git rebase origin/main
+   ```
+- `ups` – fetch and rebase onto `origin/main` using autostash
+   ```bash
+   git fetch origin -p
+   git rebase origin/main --autostash
+   ```
