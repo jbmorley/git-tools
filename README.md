@@ -12,6 +12,12 @@ Include the Git Tools configuration file in your local Git configuration. For ex
     path = ~/Projects/git-tools/config
 ```
 
+### Updates
+
+```bash
+git update-git-tools
+```
+
 ## Commands
 
 Git Tools adds the following additional git commands, many of which are simply shorter forms to avoid the need to type too much:
