@@ -12,3 +12,5 @@ up = !git fetch origin -p && git rebase origin/main --autostash
 list-alias = config --get-regexp ^alias
 
 hello = !"`git git-tools-install-directory`/scripts/hello.sh"
+
+update-git-tools = !"`git git-tools-install-directory`/scripts/update-git-tools.sh"
