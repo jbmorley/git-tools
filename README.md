@@ -20,6 +20,9 @@ Git Tools adds the following additional git commands, many of which are simply s
 - `ci` – alias for `commit`
 - `co` – alias for `checkout`
 - `s` – alias for `status`
+  ```bash
+  git status
+  ```
 - `st` – alias for `status`
   ```bash
   git status
