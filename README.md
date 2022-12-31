@@ -1,1 +1,1 @@
-# git-conveniences
+# Git Conveniences
