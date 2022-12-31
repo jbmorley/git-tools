@@ -31,3 +31,5 @@ Git Tools adds the following additional git commands, many of which are simply s
    git fetch origin -p
    git rebase origin/main --autostash
    ```
+- `sha` – alias for `rev-parse HEAD`
+
