@@ -5,4 +5,3 @@ ROOT_DIRECTORY="${SCRIPTS_DIRECTORY}/.."
 
 cd "$SCRIPTS_DIRECTORY"
 pipenv install
-

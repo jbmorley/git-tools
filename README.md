@@ -22,7 +22,7 @@
 
    ```
    [include]
-   
+
        path = ~/Projects/git-tools/config
    ```
 
@@ -37,16 +37,18 @@ git update-git-tools
 Git Tools adds the following additional git commands, many of which are simply shorter forms to avoid the need to type too much:
 
 - `br` – alias for `branch`
+  ```bash
+  git branch
+  ```
 - `ci` – alias for `commit`
+  ```bash
+  git commit
+  ```
 - `co` – alias for `checkout`
-- `s` – alias for `status`
   ```bash
-  git status
+  git checkout
   ```
-- `st` – alias for `status`
-  ```bash
-  git status
-  ```
+- `del` – interactive delete branch
 - `dt` – alias for `difftool`
   ```bash
   git difftool
@@ -57,6 +59,20 @@ Git Tools adds the following additional git commands, many of which are simply s
    git rebase origin/main --autostash
    ```
 - `sha` – alias for `rev-parse HEAD`
-- `hello` – simple hello world for the scripts directory
-- `update-git-tools` – update the current installation
+- `gt-install` – install Git Tools dependencies
+- `gt-install-directory` – echo Git Tools install directory
+- `gt-update` – update Git Tools installation
 - `list-alias` – list all aliases
+- `pf` – force push with lease
+  ```bash
+  git push --force-with-lease
+  ```
+- `s` – alias for `status`
+  ```bash
+  git status
+  ```
+- `st` – alias for `status`
+  ```bash
+  git status
+  ```
+

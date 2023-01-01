@@ -1,12 +1,13 @@
 [alias]
 
-git-tools-install-directory = !dirname `git config --list --show-origin | grep alias.git-tools-install-directory | cut -f1 | cut -d":" -f2`
-
 br = branch
 ci = commit
 co = checkout
-del = !"`git git-tools-install-directory`/scripts/del.sh"
+del = !"`git gt-install-directory`/scripts/del.sh"
 dt = difftool
+gt-install = !"`git gt-install-directory`/scripts/gt-install.sh"
+gt-install-directory = !dirname `git config --list --show-origin | grep alias.gt-install-directory | cut -f1 | cut -d":" -f2`
+gt-update = !"`git gt-install-directory`/scripts/gt-update.sh"
 list-alias = config --get-regexp ^alias
 pf = push --force-with-lease
 s = status
@@ -15,6 +16,3 @@ sl = log --oneline --decorate -20
 sla = log --oneline --decorate --graph --all -20
 st = status
 up = !git fetch origin -p && git rebase origin/main --autostash
-
-gt-update = !"`git git-tools-install-directory`/scripts/gt-update.sh"
-gt-install = !"`git git-tools-install-directory`/scripts/gt-install.sh"
