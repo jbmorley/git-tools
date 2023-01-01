@@ -76,6 +76,10 @@ Git Tools adds the following additional git commands, many of which are simply s
   ```bash
   git push --force-with-lease
   ```
+- `pr` – create a new PR on GitHub (requires the [GitHub CLI](https://cli.github.com) to be installed)
+  ```bash
+  gh pr create -w
+  ```
 - `s` – alias for `status`
   ```bash
   git status
