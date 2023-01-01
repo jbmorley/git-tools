@@ -48,6 +48,10 @@ Git Tools adds the following additional git commands, many of which are simply s
   ```bash
   git checkout
   ```
+- `d` – alias for `diff`
+  ```bash
+  git diff
+  ```
 - `del` – interactive delete branch
 - `dt` – alias for `difftool`
   ```bash
