@@ -52,6 +52,10 @@ Git Tools adds the following additional git commands, many of which are simply s
   ```bash
   git diff
   ```
+- `dc` – show the cached changes
+  ```bash
+  git diff --cached
+  ```
 - `del` – interactive delete branch
 - `dt` – alias for `difftool`
   ```bash
