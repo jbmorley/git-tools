@@ -62,7 +62,7 @@ Git Tools adds the following additional git commands, many of which are simply s
 - `gt-install` – install Git Tools dependencies
 - `gt-install-directory` – echo Git Tools install directory
 - `gt-update` – update Git Tools installation
-- `list-alias` – list all aliases
+- `list-aliases` – list all aliases
 - `pf` – force push with lease
   ```bash
   git push --force-with-lease
