@@ -4,6 +4,8 @@ Git aliases and commands
 
 ## Overview
 
+Git Tools is a collection of Git aliases and convenience commands that I use in my development workflow. I've packed them up to make them easy to share and keep up-to-date across my various development environments. You're welcome to use them and I'd love contributions.
+
 ## Installation
 
 1. Clone the repository:
