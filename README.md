@@ -96,4 +96,5 @@ Git Tools adds the following additional git commands, many of which are simply s
    ```bash
    git fetch origin -p
    git rebase origin/main --autostash
+   git submodule update --init --recursive
    ```
