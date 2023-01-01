@@ -79,6 +79,10 @@ Git Tools adds the following additional git commands, many of which are simply s
   ```bash
   git status
   ```
+- `unstage` – unstage the current changes
+  ```bash
+  git reset HEAD --
+  ```
 - `up` – fetch and rebase onto `origin/main`
    ```bash
    git fetch origin -p
