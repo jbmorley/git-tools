@@ -53,12 +53,6 @@ Git Tools adds the following additional git commands, many of which are simply s
   ```bash
   git difftool
   ```
-- `up` – fetch and rebase onto `origin/main`
-   ```bash
-   git fetch origin -p
-   git rebase origin/main --autostash
-   ```
-- `sha` – alias for `rev-parse HEAD`
 - `gt-install` – install Git Tools dependencies
 - `gt-install-directory` – echo Git Tools install directory
 - `gt-update` – update Git Tools installation
@@ -71,8 +65,18 @@ Git Tools adds the following additional git commands, many of which are simply s
   ```bash
   git status
   ```
+- `sha` – alias for `rev-parse HEAD`
+  ```bash
+  git rev-parse HEAD
+  ```
+- `sl`
+- `sla`
 - `st` – alias for `status`
   ```bash
   git status
   ```
-
+- `up` – fetch and rebase onto `origin/main`
+   ```bash
+   git fetch origin -p
+   git rebase origin/main --autostash
+   ```
