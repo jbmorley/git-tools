@@ -11,6 +11,7 @@ gt-install = !"`git gt-install-directory`/scripts/gt-install.sh"
 gt-install-directory = !dirname `git config --list --show-origin | grep alias.gt-install-directory | cut -f1 | cut -d":" -f2`
 gt-update = !"`git gt-install-directory`/scripts/gt-update.sh"
 list-aliases = config --get-regexp ^alias
+p = push
 pf = push --force-with-lease
 pr = !gh pr create -w
 s = status

@@ -72,6 +72,10 @@ Git Tools adds the following additional git commands, many of which are simply s
   ```bash
   git config --get-regexp ^alias
   ```
+- `p` – push
+  ```bash
+  git push
+  ```
 - `pf` – force push with lease
   ```bash
   git push --force-with-lease
