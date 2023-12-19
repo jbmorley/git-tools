@@ -33,7 +33,7 @@ Git Tools is a collection of Git aliases and convenience commands that I use in 
 ### Updates
 
 ```bash
-git update-git-tools
+git gt-update
 ```
 
 ## Commands
