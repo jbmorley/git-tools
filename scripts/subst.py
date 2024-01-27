@@ -40,7 +40,7 @@ def main():
         print(f"Processing '{f}'...")
         with open(f, encoding="utf-8") as fh:
             contents = fh.read()
-        contents.replace(options.find, options.replace)
+        contents = contents.replace(options.find, options.replace)
         with open(f, "w", encoding="utf-8") as fh:
             fh.write(contents)
 
