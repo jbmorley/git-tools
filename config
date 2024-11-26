@@ -22,3 +22,5 @@ st = status
 unstage = reset HEAD --
 up = !git fetch origin -p && git rebase origin/main --autostash && git submodule update --init --recursive
 subst = !"`git gt-install-directory`/scripts/subst.sh"
+xb = xbranch
+xbranch = !"`git gt-install-directory`/scripts/xbranch.sh"

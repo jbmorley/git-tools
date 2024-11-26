@@ -108,3 +108,4 @@ Git Tools adds the following additional git commands, many of which are simply s
    git rebase origin/main --autostash
    git submodule update --init --recursive
    ```
+- `xbranch <new branch>` or `xb <new branch>` – move the current uncommitted changes to a new branch by stashing, checking out main, updating main, and checking out the new branch, and applying the stashed changes.

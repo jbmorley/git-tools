@@ -20,11 +20,15 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-SCRIPTS_DIRECTORY="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
-ROOT_DIRECTORY="${SCRIPTS_DIRECTORY}/.."
+set -e
+set -x
 
-cd "$ROOT_DIRECTORY"
-git fetch origin -p
-git rebase origin/main --autostash
+NEW_BRANCH="$1"
 
-$SCRIPTS_DIRECTORY/gt-install.sh
+BRANCH=`git rev-parse --abbrev-ref HEAD`
+git stash
+git checkout main
+git up
+git branch -D "$BRANCH"
+git checkout -b "$NEW_BRANCH"
+git stash pop
