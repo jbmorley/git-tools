@@ -16,6 +16,7 @@ open = !"`git gt-install-directory`/scripts/open.py"
 p = push
 pf = push --force-with-lease
 pr = !gh pr create -w
+pulls = !"`git gt-install-directory`/scripts/pulls.py"
 s = status
 sha = rev-parse HEAD
 sl = log --oneline --decorate -20

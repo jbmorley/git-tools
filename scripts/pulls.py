@@ -8,7 +8,7 @@ import common
 def main():
     if (remote := common.get_remote()) is None:
         exit("Unable to parse remote.")
-    webbrowser.open(remote.url)
+    webbrowser.open(f"{remote.url}/pulls")
 
 
 if __name__ == "__main__":

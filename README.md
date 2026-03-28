@@ -86,6 +86,7 @@ Git Tools adds the following additional git commands, many of which are simply s
   ```bash
   gh pr create -w
   ```
+- `pulls` - open the repository pull requests in a web browser
 - `s` – alias for `status`
   ```bash
   git status
