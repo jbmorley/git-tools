@@ -72,6 +72,8 @@ Git Tools adds the following additional git commands, many of which are simply s
   ```bash
   git config --get-regexp ^alias
   ```
+- `o` - open
+- `open` - open the repository in a web browser
 - `p` – push
   ```bash
   git push
