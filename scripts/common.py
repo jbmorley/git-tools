@@ -20,8 +20,8 @@ class Remote(object):
         return f"https://{self.domain}/{self.owner}/{self.repo}"
 
 
-def get_remote():
-    url = subprocess.check_output(["git", "config", "--get", "remote.origin.url"]).decode("utf-8").strip()
+def get_remote(remote="origin"):
+    url = subprocess.check_output(["git", "config", "--get", f"remote.{remote}.url"]).decode("utf-8").strip()
     if ((match := GITHUB_SSH_REGEX.match(url)) is None) and ((match := SSH_PROTOCOL_REGEX.match(url)) is None):
         return None
         exit("Unable to detect repository from remote.")
